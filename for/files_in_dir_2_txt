@@ -1,0 +1,1 @@
+for /r %i in (*.tif) do echo %i >>list_luftbildkacheln.txt
