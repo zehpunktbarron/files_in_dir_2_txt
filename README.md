@@ -4,4 +4,4 @@ Writes the path of all files with a specific ending (*.tif) to a txt-file using 
 Open cmd an navigate to the folder containing the files. Than type:
 
 
-for /r %i in (*.tif) do echo %i >>list_luftbildkacheln.txt
+for /r %i in (*.shp) do echo %~zni >>list.txt
